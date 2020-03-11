@@ -1,3 +1,3 @@
-export { UserContext } from "./UserContext"
+export { UserContext } from "./UserContext.js"
 
-export { default as UserContextProvider } from "./UserContext"
+export { default as UserContextProvider } from "./UserContext.js"
