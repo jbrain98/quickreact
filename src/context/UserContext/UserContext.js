@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect } from "react"
-import ListUpcomingEvents from "components/Events/ListUpcomingEvents"
-import { ROOM_ID } from "constants"
+import ListUpcomingEvents from "./components/Events/ListUpcomingEvents"
+
 
 export const UserContext = createContext()
 
