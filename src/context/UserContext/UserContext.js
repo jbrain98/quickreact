@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from "react"
-import ListUpcomingEvents from "./components/Events/ListUpcomingEvents"
+import ListUpcomingEvents from "../../components/Events/ListUpcomingEvents"//"./components/Events/ListUpcomingEvents"
 
 
 export const UserContext = createContext()

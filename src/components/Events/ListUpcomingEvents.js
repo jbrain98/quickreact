@@ -1,5 +1,5 @@
 import { DATE_FORMAT } from "../../constants"
-import AddGCalEvents from "./AddGCalEvents"
+import AddGCalEvents from "./components/Events/AddGCalEvents"
 import moment from "moment"
 import { GetStartEndTimeForRoomId } from "../Db"
 /*
