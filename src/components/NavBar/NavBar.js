@@ -2,10 +2,9 @@ import React, { useContext, useEffect, useState, useRef } from "react"
 import { Link, withRouter } from "react-router-dom"
 import classnames from "classnames"
 import "./NavBar.scss"
-import { UserContext } from "context/UserContext"
+import { UserContext } from "../context/UserContext"
 import { ReactComponent as Hamburger } from "./Hamburger.svg"
-import { Popover } from "components/Popover"
-import { Button } from "components/Button"
+import { Popover } from "../Popover"
 
 const NavBar = props => {
   const value = useContext(UserContext)
